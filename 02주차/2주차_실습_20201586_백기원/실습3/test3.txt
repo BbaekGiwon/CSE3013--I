@@ -1,0 +1,7 @@
+ Youneedtoconsidereverypossiblecases. Can you see?
+Good data structure implies a good program.
+ If your program does not work, use debugger. 
+ 
+
+I am sure that youlikeproblemsolvingbyprogramming.
+Aggree?

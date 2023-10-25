@@ -1,0 +1,12 @@
+#!/bin/sh
+
+if [ $# -eq 0 ]
+then
+        echo "Usage: phone searchfor[...searchfor]"
+        echo "(You didn't tell me what you want to search for.)"
+else
+        input=$@
+        input="$(echo $input | tr ' ' '|')"
+        result=$(cat mydata | egrep -i "$input")
+        echo "$result" | awk -f display.awk
+fi
